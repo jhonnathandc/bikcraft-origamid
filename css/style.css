@@ -1,0 +1,41 @@
+/* GLOBAL */
+@import './global/global.css';
+@import './global/header.css';
+@import './global/footer.css';
+
+/* HOME */
+@import './home/intro.css';
+@import './home/tech.css';
+@import './home/partners.css';
+@import './home/brief.css';
+
+/* SECURE */
+@import './secure/secure.css';
+@import './secure/benefits.css';
+@import './secure/questions.css';
+
+/* UTILITES */
+@import './utilities/typography.css';
+@import './utilities/color.css';
+@import './utilities/components.css';
+@import './utilities/form.css';
+@import './utilities/animation.css';
+
+/* BIKES */
+@import './bikes/bike-list.css';
+@import './bikes/bikes.css';
+
+/* BIKE */
+@import './bike/bike.css';
+@import './bike/bike-list.css';
+@import './bike/bike-secure.css';
+
+/* CONTACT */
+@import './contact/contact.css';
+@import './contact/shops.css';
+
+/* TERMS */
+@import './terms/terms.css';
+
+/* BUDGET */
+@import './budget/budget.css';

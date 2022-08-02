@@ -1,0 +1,118 @@
+#contact {
+  background: linear-gradient(to bottom, var(--color-11) 600px, var(--color-1) 0px);
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  justify-content: start;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
+  margin-bottom: 120px;
+}
+
+.contact-shop {
+  background: var(--color-12);
+  padding: 60px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.contact-shop a:hover {
+  color: var(--color-0);
+}
+
+.contact-shop h2 {
+  margin-bottom: 60px;
+}
+
+.contact-address {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.contact-address p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-address p:first-child::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url('../../img/icones/local.svg');
+}
+
+.contact-address p:nth-child(n + 2) {
+  margin-left: 28px;
+}
+
+.contact-means {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.contact-means > a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-means a:first-child::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url('../../img/icones/email.svg');
+}
+
+.contact-means a:nth-child(2) {
+  margin-bottom: 32px;
+  margin-left: 28px;
+}
+
+.contact-means a:last-child::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url('../../img/icones/telefone.svg');
+}
+
+.contact-social {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-left: 28px;
+}
+
+.contact-form {
+  background: var(--color-0);
+  padding: 60px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    grid-template-columns: 1fr;
+    margin-bottom: 60px;
+  }
+
+  .contact-shop, .contact-form {
+    padding: 32px;
+  }
+
+  .contact-shop {
+    border-radius: 4px 4px 0px 0px;
+  }
+
+  .contact-form {
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .contact-shop h2 {
+    margin-bottom: 32px;
+  }
+}

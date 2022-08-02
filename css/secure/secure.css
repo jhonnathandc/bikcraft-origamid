@@ -1,0 +1,90 @@
+#secure .secure {
+  padding-top: 0px;
+}
+
+.secure-bg {
+  background: var(--color-11);
+}
+
+.secure {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.secure h2 {
+  grid-column: span 2;
+  margin-bottom: 20px;
+}
+
+.secure-plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 32px 32px 64px;
+  background: var(--color-12);
+  border-radius: 4px;
+}
+
+.secure-plan h3 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.secure-plan p {
+  place-self: start end;
+  position: relative;
+}
+
+.secure-plan span {
+  display: block;
+  position: absolute;
+  right: 0px;
+  bottom: -12px;
+}
+
+.secure-plan ul {
+  grid-column: span 2;
+  margin-bottom: 32px;
+}
+
+.secure-plan li + li {
+  margin-top: 20px;
+}
+
+.secure-plan li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.secure-plan li::before {
+  content: "";
+  display: block;
+  background: url('../../img/icones/lista.svg');
+  width: 13px;
+  height: 9px;
+  position: absolute;
+  left: -21px;
+}
+
+.secure-plan a {
+  grid-column: span 2;
+  place-self: start;
+}
+
+@media (max-width: 800px) {
+  .secure {
+    padding-bottom: 60px;
+    grid-template-columns: 1fr;
+  }
+
+  .secure h2 {
+    grid-column: span 1;
+    margin-bottom: 0px;
+  }
+}
