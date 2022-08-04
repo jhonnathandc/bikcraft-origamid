@@ -33,7 +33,7 @@ Foi construído inteiramente do zero, sem usar nada fora da caixa e sendo respon
 
 ```bash
     # Clone o projeto
-    $ git clone https://github.com/jhonnathandc/origamid/tree/main/bikcraft
+    $ git clone https://github.com/jhonnathandc/bikcraft-origamid
     
     # Entre no repositório
 
