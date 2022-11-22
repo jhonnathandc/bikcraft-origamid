@@ -4,7 +4,9 @@ Este projeto faz parte dos cursos de [Origamid](https://www.origamid.com), o des
 
 O projeto consiste em um site de orçamento para uma loja de Bicicleta Elétrica e Seguros.
 
-[Acesse o site aqui.](https://www.allbigcraft.top)
+AVISO: FORMULÁRIO NÃO ESTÁ ATIVO!!!
+
+[Acesse o site aqui.](https://bikcraftorigamid.vercel.app/)
 
 ## Demonstração
 
