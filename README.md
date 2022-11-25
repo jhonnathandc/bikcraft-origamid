@@ -56,11 +56,8 @@ Foi construído inteiramente do zero, sem usar nada fora da caixa e sendo respon
 
 # Olá, meu nome é Jhonnathan! 👋
 
-## 🚀 Mais sobre mim
-Sou um desenvolvedor Front End...
+<p>Acesse minhas redes!</p>
 
-## 🛠 Habilidades
-Javascript, HTML, CSS...
-
-## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jhonnathan-cora-6427661b0/)
+[![github](https://img.shields.io/badge/-github-%23333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhonnathandc)
+[![github](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)]("https://www.linkedin.com/in/jhonnathan-cora-6427661b0/)
+[![github](https://img.shields.io/badge/-instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jhonnathandc/)
